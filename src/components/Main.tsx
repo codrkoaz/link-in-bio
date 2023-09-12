@@ -1,8 +1,11 @@
 import Image from "next/image";
 import React from "react";
+
 // import backgroundImage from "../../public/assets/nightviolet.gif";
 
 const Main = () => {
+  
+
   return (
     <main>
       <header className=" flex flex-col items-center p-8 text-center">
@@ -14,7 +17,7 @@ const Main = () => {
           width={200}
         />
 
-        <h1 className="mb-6 inline-block rounded-full border-2 border-gray-400 bg-slate-900  bg-opacity-80 px-2 text-lg font-bold text-white backdrop-blur-md backdrop-saturate-150">
+        <h1 className="mb-6 inline-block rounded-full border-2 border-gray-400 bg-black bg-opacity-50 px-2 text-lg font-bold text-white backdrop-blur-md backdrop-saturate-150">
           <a href="https://www.instagram.com/koazie_">@koazie_</a>
         </h1>
       </header>
@@ -31,7 +34,7 @@ const Main = () => {
         </a>
         <a href="">
           <li className="text-primary-600 flex w-60 cursor-pointer items-center justify-center rounded-full bg-white bg-opacity-50 p-4 backdrop-blur-md backdrop-saturate-150">
-            Stock
+            $10 from Stock 
           </li>
         </a>
         <a href="">
