@@ -14,7 +14,7 @@ useEffect (() => {
     <>
       <div className={`absolute top-0 left-0 w-screen h-screen z-0 ${
               currentBackground === 1 ? "opacity-100" : "opacity-0"
-            } transition-opacity duration-1000 ease-in`}>
+            } transition-opacity duration-1000 ease-in-out`}>
         <video
           className={`absolute z-auto h-screen w-screen object-cover ${currentBackground === 1 ? 'opacity-100': 'opacity-0' } transition-opacity duration-1000 ease-in `}
           autoPlay
@@ -26,7 +26,7 @@ useEffect (() => {
       </div>
       <div className={`absolute top-0 left-0 w-screen h-screen z-0 ${
               currentBackground === 2 ? "opacity-100" : "opacity-0"
-            } transition-opacity duration-1000 ease-in`}>
+            } transition-opacity duration-1000 ease-in-out`}>
         <video
           className={`absolute z-auto h-screen w-screen object-cover ${currentBackground === 2 ? 'opacity-100': 'opacity-0' } transition-opacity duration-1000 ease-in `}
           autoPlay
@@ -38,7 +38,7 @@ useEffect (() => {
       </div>
       <div className={`absolute top-0 left-0 w-screen h-screen z-0 ${
               currentBackground === 3 ? "opacity-100" : "opacity-0"
-            } transition-opacity duration-1000 ease-in`}>
+            } transition-opacity duration-1000 ease-in-out`}>
         <video
           className={`absolute z-auto h-screen w-screen object-cover ${currentBackground === 3 ? 'opacity-100': 'opacity-0' } transition-opacity duration-1000 ease-in `}
           autoPlay
