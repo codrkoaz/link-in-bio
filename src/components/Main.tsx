@@ -15,26 +15,26 @@ const Main = () => {
         />
 
         <h1 className="mb-6 inline-block rounded-full border-2 border-gray-400 bg-black bg-opacity-50 px-2 text-lg font-bold text-white backdrop-blur-md backdrop-saturate-150">
-          <a href="https://www.instagram.com/onlyjoza/">@onlyjoza</a>
+          <a href="https://www.instagram.com/bykoaz/">@bykoaz</a>
         </h1>
       </header>
       <ul className="box-sizing m-2 flex list-disc flex-col items-center justify-center space-y-6 p-2 text-left">
         <a href="https://joza-beta.vercel.app/">
           <li className="text-primary-600 flex w-60 cursor-pointer items-center justify-center rounded-full bg-white bg-opacity-50 p-4 backdrop-blur-md backdrop-saturate-150">
-            Joza Homepage
+            My Resume
           </li>
         </a>
         <a href="adreamerfuture.co">
           <li className="text-primary-600 flex w-60 cursor-pointer items-center justify-center rounded-full bg-white bg-opacity-50 p-4 backdrop-blur-md backdrop-saturate-150">
-            ADF Clothing
+            ADF Brand
           </li>
         </a>
-        <a href="">
+        <a href="https://www.youtube.com/@bykoaz/videos">
           <li className="text-primary-600 flex w-60 cursor-pointer items-center justify-center rounded-full bg-white bg-opacity-50 p-4 backdrop-blur-md backdrop-saturate-150">
-            link 3
+            My YT Channel
           </li>
         </a>
-        <a href="">
+        <a href="2">
           <li className="text-primary-600 flex w-60 cursor-pointer items-center justify-center rounded-full bg-white bg-opacity-50 p-4 backdrop-blur-md backdrop-saturate-150">
             link 4
           </li>
