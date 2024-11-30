@@ -10,6 +10,12 @@ useEffect (() => {
   const randomBackground = Math.floor(Math.random() * 3 + 1);
   setCurrentBackground(randomBackground)
 },[])
+
+const videos = [
+  { id: 1, src: "assets/waterfall.mp4" },
+  { id: 2, src: "assets/greenstation.mp4" },
+  { id: 3, src: "assets/winter.mp4" },
+];
   return (
     <div className="">
       <div className={`absolute top-0 left-0 w-screen h-screen z-0 ${
@@ -20,6 +26,7 @@ useEffect (() => {
           autoPlay
           loop
           muted
+          playsInline
         >
           <source src="assets/waterfall.mp4" type="video/mp4" />
         </video>
@@ -32,6 +39,7 @@ useEffect (() => {
           autoPlay
           loop
           muted
+          playsInline
         >
           <source src="assets/greenstation.mp4" type="video/mp4" />
         </video>
@@ -44,6 +52,7 @@ useEffect (() => {
           autoPlay
           loop
           muted
+          playsInline
         >
           <source src="assets/winter.mp4" type="video/mp4" />
         </video>

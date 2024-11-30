@@ -10,8 +10,8 @@ const Main = () => {
           src={Joza}
           alt="joza"
           className="border-grey-300 z-0 mb-4 h-40 w-40 rounded-full border-4"
-          height={200}
-          width={200}
+          height={100}
+          width={100}
         />
 
         <h1 className="mb-6 inline-block rounded-full border-2 border-gray-400 bg-black bg-opacity-50 px-2 text-lg font-bold text-white backdrop-blur-md backdrop-saturate-150">
