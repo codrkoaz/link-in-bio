@@ -15,21 +15,21 @@ const Main = () => {
         />
 
         <h1 className="mb-6 inline-block rounded-full border-2 border-gray-400 bg-black bg-opacity-50 px-2 text-lg font-bold text-white backdrop-blur-md backdrop-saturate-150">
-          <a href="https://www.instagram.com/bykoaz/">@bykoaz</a>
+          <a href="https://www.instagram.com/itskoaz_/">@itskoaz_</a>
         </h1>
       </header>
       <ul className="box-sizing m-2 flex list-disc flex-col items-center justify-center space-y-6 p-2 text-left">
-        <a href="https://joza-beta.vercel.app/">
+        <a href="https://joza-website.vercel.app/">
           <li className="text-primary-600 flex w-60 cursor-pointer items-center justify-center rounded-full bg-white bg-opacity-50 p-4 backdrop-blur-md backdrop-saturate-150">
             My Resume
           </li>
         </a>
-        <a href="adreamerfuture.co">
+        <a href="https://adreamersfuture.co">
           <li className="text-primary-600 flex w-60 cursor-pointer items-center justify-center rounded-full bg-white bg-opacity-50 p-4 backdrop-blur-md backdrop-saturate-150">
             ADF
           </li>
         </a>
-        <a href="https://www.youtube.com/@bykoaz/videos">
+        <a href="https://www.youtube.com/@itskoaz/videos">
           <li className="text-primary-600 flex w-60 cursor-pointer items-center justify-center rounded-full bg-white bg-opacity-50 p-4 backdrop-blur-md backdrop-saturate-150">
             YT Channel
           </li>
