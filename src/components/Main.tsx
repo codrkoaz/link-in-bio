@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Joza from "../../public/assets/koaz.jpeg";
+import Joza from "~/assets/koaz.jpeg";
 
 const Main = () => {
   return (
@@ -9,7 +9,7 @@ const Main = () => {
         <Image
           src={Joza}
           alt="joza"
-          className="border-grey-300 z-0 mb-4 h-40 w-40 rounded-full border-4"
+          className="border-gray-300 z-0 mb-4 h-40 w-40 rounded-full border-4"
           height={100}
           width={100}
         />

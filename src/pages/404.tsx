@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import ErrorPic from '../../public/assets/ERROR.gif'
+import ErrorPic from '~/assets/ERROR.gif'
 import Link from 'next/link'
 
 const Notfound = () => {
